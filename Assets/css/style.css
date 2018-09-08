@@ -1,10 +1,10 @@
 body {
-    background-image: url("Images/hypnotize.png");
+    background-image: url("../Images/polaroid.png");
     background-repeat: repeat-x repeat-y;
 }
 
 a {
-    color:black;
+    color:#777777;
     padding: 14px 25px;
     text-align: center; 
     text-decoration: none;
@@ -49,7 +49,7 @@ hr {
         position: relative;
         top:20px;
         bottom:0px;
-        background-color:#4aaaa5;
+        background-color:#fbb3be;
         color:#ffffff;
         text-align: center;
         line-height:100px;
@@ -68,6 +68,7 @@ hr {
     padding:50px;
     margin-left:10%;
     margin-right:10%;
+    margin-bottom: 60px;
     max-width:960px;
     background-color:#ffffff;
     font-family: Arial, Helvetica, sans-serif;
@@ -76,7 +77,7 @@ hr {
 }
 
     .content-name {
-        color: #4aaaa5;
+        color: #eaaf60;
         font-size: 30px;
         margin-top: -10px;
         margin-bottom: 30px;
@@ -99,33 +100,28 @@ hr {
             width: 270px;
             margin-left: -10px;
             padding-top: 10px;
-            background-color: #4aaaa5;
+            background-color: #eaaf60;
             text-align: center;
             color: #ffffff;
         }
 
     #hangman {
-        background-image: url("https://d2b8crmh47yoxi.cloudfront.net/wp-content/uploads/2015/01/word-count.jpg");
+        background-image: url("../Images/word-count.jpg");
         background-size:cover;
     }
 
     #rpg-game {
-        background-image: url("http://orig15.deviantart.net/4f18/f/2011/149/0/3/gems_1_by_melodycphotography-d29h1q9.jpg");
+        background-image: url("../Images/newsnviews.png");
         background-size:cover;
     }
 
     #trivia {
-        background-image: url("https://bloximages.newyork1.vip.townnews.com/stltoday.com/content/tncms/assets/v3/editorial/1/cc/1cc32f56-a26f-59ff-8a85-e299f89e9d24/593acd0c8c2c4.image.jpg");
+        background-image: url("../Images/Trivia.jpg");
         background-size: cover;
     }
 
     #rutgers {
-        background-image: url("Images/Disney-Background.jpg");
-        background-size:cover;
-    }
-
-    #rock-paper-scissors {
-        background-image: url("https://www.acerail.com/getdoc/99647316-27df-4fda-9317-5fc3227cfa6a/default?width=400");
+        background-image: url("../Images/Disney-Background.jpg");
         background-size:cover;
     }
 
@@ -165,16 +161,22 @@ hr {
     }
 
 .footer {
-    position: relative;
+    position: fixed;
     bottom: -25px;
     width: 100%;
     height: 40px;
-    border-top: 5px solid #4aaaa5;
+    border-top: 5px solid #eaaf60;
     padding-top: 30px;
     text-align: center;
     font-size: 12px;
-    background-color: #666666;
+    background-color: #fbb3be;
     color: #ffffff;
+}
+
+@media only screen and (min-width: 769px) {
+    .title-box {
+        font-size: 20px;
+    }
 }
 
 

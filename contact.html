@@ -5,8 +5,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Contact</title>
-        <link rel="stylesheet" type="text/css" href="reset.css">
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="Assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="Assets/css/style.css">
     </head>
 
     <body>
@@ -34,7 +34,15 @@
 
             <hr>
 
-            <form action="action_page.php">
+            <div>Links:</div>
+
+            <div>
+                <span class="contactLinks"><a href="mailto:reevewjohnson@gmail.com">E-mail</a></span>
+                <span class="contactLinks"><a href="https://github.com/reevejohnson" target="_blank">GitHub</a></span>
+                <span class="contactLinks"><a href="https://www.linkedin.com/in/reeve-johnson-701151166/" target="_blank">LinkedIn</a></span>
+            </div>
+
+            <form method="post" action="mailto:reevewjohnson@gmail.com">
               
                 <label for="fname">Name</label>
                 <input type="text" id="fname" name="firstname" placeholder="John Smith">
