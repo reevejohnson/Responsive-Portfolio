@@ -110,7 +110,7 @@ hr {
         background-size:cover;
     }
 
-    #rpg-game {
+    #news-n-views {
         background-image: url("../Images/newsnviews.png");
         background-size:cover;
     }
@@ -120,8 +120,13 @@ hr {
         background-size: cover;
     }
 
-    #rutgers {
+    #disney-gif-search {
         background-image: url("../Images/Disney-Background.jpg");
+        background-size:cover;
+    }
+
+    #liri-app {
+        background-image: url("../Images/siri.jpg");
         background-size:cover;
     }
 
