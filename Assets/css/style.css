@@ -130,6 +130,16 @@ hr {
         background-size:cover;
     }
 
+    #bamazon {
+        background-image: url("../Images/shopping.jpg");
+        background-size:cover;
+    }
+
+    #friend-finder {
+        background-image: url('../Images//Friendship.jpg');
+        background-size: cover;
+    }
+
     #headshot {
         width:100px;
         height:100px;
