@@ -136,7 +136,12 @@ hr {
     }
 
     #friend-finder {
-        background-image: url('../Images//Friendship.jpg');
+        background-image: url('../Images/Friendship.jpg');
+        background-size: cover;
+    }
+
+    #eat-a-burger {
+        background-image: url('../Images/burger.png');
         background-size: cover;
     }
 
