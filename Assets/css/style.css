@@ -150,6 +150,11 @@ hr {
         background-size: cover;
     }
 
+    #beyonce-news {
+        background-image: url('../Images/beyonce.png');
+        background-size: cover;
+    }
+
     #headshot {
         width:100px;
         height:100px;
