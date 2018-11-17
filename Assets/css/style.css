@@ -155,6 +155,11 @@ hr {
         background-size: cover;
     }
 
+    #beyonce-memory {
+        background-image: url('../Images/beyonce-2.png');
+        background-size: cover;
+    }
+
     #headshot {
         width:100px;
         height:100px;
