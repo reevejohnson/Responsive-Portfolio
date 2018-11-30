@@ -160,6 +160,11 @@ hr {
         background-size: cover;
     }
 
+    #google-search {
+        background-image: url('../Images/books.jpg');
+        background-size: cover;
+    }
+
     #headshot {
         width:100px;
         height:100px;
