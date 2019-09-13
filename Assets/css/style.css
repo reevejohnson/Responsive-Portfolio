@@ -165,6 +165,11 @@ hr {
         background-size: cover;
     }
 
+    #vist {
+        background-image: url('../Images/Tv.jpg');
+        background-size: cover;
+    }
+
     #headshot {
         width:100px;
         height:100px;
